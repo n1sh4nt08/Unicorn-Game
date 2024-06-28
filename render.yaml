@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: guess-unicorn-startup
+    env: python
+    buildCommand: ""
+    startCommand: python application.py

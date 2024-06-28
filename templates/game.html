@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <title>Guess the Unicorn Startup</title>
+</head>
+<body>
+    <h1>Guess the Unicorn Startup</h1>
+    <p>{{ message }}</p>
+    <form action="{{ url_for('game') }}" method="post">
+        <p>Attribute: {{ attribute }}</p>
+        <input type="text" name="guess" required>
+        <input type="hidden" name="score" value="{{ score }}">
+        <input type="hidden" name="attribute" value="{{ attribute }}">
+        <input type="hidden" name="startup" value="{{ startup }}">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

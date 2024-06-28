@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Startup</title>
+  </head>
+  <body>
+    <h1>Guess the Startup</h1>
+    <p>Question: {{ question }}</p>
+    <form method="post">
+      <input type="text" name="answer" required>
+      <button type="submit">Submit</button>
+    </form>
+    <p>Current Score: {{ score }}</p>
+  </body>
+</html>
