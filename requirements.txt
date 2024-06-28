@@ -10,3 +10,4 @@ tzdata==2024.1
 wheel==0.43.0
 gunicorn==22.0.0
 flask==2.0.2
+Werkzeug==3.0.3
